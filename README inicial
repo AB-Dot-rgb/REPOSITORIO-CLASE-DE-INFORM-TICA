@@ -1,0 +1,31 @@
+# Los Mejores Procesadores del Mercado
+
+Este proyecto analiza y compara los procesadores más potentes y eficientes disponibles actualmente, evaluando su rendimiento, consumo energético y relación calidad-precio.
+
+## Objetivos
+1. Identificar los procesadores con mejor rendimiento en tareas de alto consumo.
+2. Comparar las especificaciones técnicas y precios de diferentes marcas.
+3. Proporcionar recomendaciones para distintos tipos de usuarios (gaming, edición, uso general).
+
+## Tecnologías utilizadas
+- Markdown para la documentación.
+- HTML/CSS para la presentación web.
+- JavaScript para interactividad.
+- Python para análisis de datos.
+
+> "Un buen procesador es el corazón de cualquier computadora potente."
+
+[Más información sobre procesadores](https://www.cpubenchmark.net)
+
+![Procesador Intel Core i9](https://upload.wikimedia.org/wikipedia/commons/9/95/Intel_Core_i9_11900K_2.jpg)
+
+```python
+# Ejemplo de código en Python para comparar procesadores
+procesadores = {
+    "Intel Core i9-13900K": 38210,
+    "AMD Ryzen 9 7950X": 37500,
+    "Apple M2 Ultra": 36000
+}
+
+mejor = max(procesadores, key=procesadores.get)
+print(f"El procesador más potente es: {mejor}")
